@@ -1,0 +1,64 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.poster {
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s;
+    border-radius: 8px 8px 0 0;
+}
+
+.poster:hover {
+    transform: scale(1.03);
+}
+
+.movie-card {
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s;
+}
+
+.movie-card:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+#suggestions {
+    min-height: 24px;
+}
+
+.suggestion-item {
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #dee2e6;
+}
+
+@media (max-width: 768px) {
+    .poster {
+        height: 250px;
+    }
+    
+    .input-group {
+        flex-direction: column;
+    }
+    
+    #searchBtn {
+        margin-top: 10px;
+        width: 100%;
+    }
+}

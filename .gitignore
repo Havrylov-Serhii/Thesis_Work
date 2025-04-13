@@ -1,0 +1,13 @@
+# Docker
+docker-compose.override.yml
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Data files
+data/
+model/
