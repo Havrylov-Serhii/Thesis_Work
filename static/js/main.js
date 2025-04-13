@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = '';
 const TMDB_API_KEY = 'b572fdadce93fd096624678e4b0d7f1f'; 
 
 const movieInput = document.getElementById('movieInput');
