@@ -1,8 +1,6 @@
-# Docker
 docker-compose.override.yml
 .env
 
-# Python
 __pycache__/
 *.py[cod]
 *.egg-info/
